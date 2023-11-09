@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "OnePiece";
+    src: url(/fonts/one_piece_font.ttf);
+}
+
+@font-face {
+    font-family: "Playpen Sans";
+    src: url(/fonts/PlaypenSans-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.ContainerHeaderAccueil {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.NameSite h1 {
+    font-family: "OnePiece";
+    font-size: 8vh;
+    letter-spacing: 2vh;
+    color: purple;
+   
+}
+
+.BarreDeNav img {
+    width: 3vh;
+    height: 3vh;    
+}
+
+.BarreDeNav a {
+    font-size: 5vh;
+    font-family: "Playpen Sans";
+    text-decoration: underline;
+    color: whitesmoke;
+    padding: 0vh 2vh;
+}
+.BarreDeNav {
+    margin: 0vh 20vh;
+    padding: 2vh 0vh; 
+}
+
+#Text_Bienvenue h1 {
+    font-size: 4vh;
+    color: whitesmoke;
+    word-spacing: 1vb;
+    font-family: "Playpen Sans";
+    text-align: center;
+    padding-bottom: 2vh;
+}
+.BoxTextBienvenue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Text_Bienvenue img {
+    width: 10%; height: 20%;
+}
+#Text_Bienvenue p {
+   color: white;
+   font-family: "Playpen Sans";
+   font-size: 2vh;
+   text-decoration: underline
+}
+
+#WhatIsOnePiece h1 {
+    font-size: 3vh;
+    color: whitesmoke;
+    word-spacing: 1vb;
+    font-family: "Playpen Sans";
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+#WhatIsOnePiece h2 {
+    font-size: 2vh;
+    color: whitesmoke;
+    word-spacing: 1vb;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0vh 7vh;
+    padding-bottom: 3vh;
+}
+
+
+#Exemple_Fruit h1 {
+    font-size: 3vh;
+    color: whitesmoke;
+    word-spacing: 1vb;
+    font-family: "Playpen Sans";
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+
+#Exemple_Fruit h2 {
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 90%;
+}
+#Exemple_Fruit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container1 {
+    margin: 0% 20%;
+    border: 3px solid black;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 20px;
+
+}
+.containerExampleFruits {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    }
+
+
+.containerPictureFruits{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+.containerPictureFruits img {
+    width: 70%;
+    height: 100%;
+}
+.containerPictureFruits h2 {
+   padding-top: 4%;
+   text-align: center;
+
+}
+.containersWatchOnePiece {
+display: flex;
+justify-content: center;
+}
+.containersSite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#TitleWathcOP {
+    font-size: 140%;
+        color: whitesmoke;
+        text-align: center;
+    padding: 3% 0%;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.containersSite h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.containersSite img{
+    width: 100%;
+    height: 50%;
+    padding-top: 1%;
+}
+
+.NavGoTop {
+    padding-bottom: 3%;
+}
+.NavGoTop a{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.Footer {
+    text-align: center;
+}
+.Footer h1 {
+    color: whitesmoke;
+    padding: 2% 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Footer h2 {
+    padding-bottom: 3%;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.twitter-timeline {
+    margin: 30% 10%;
+    padding-bottom: 9%;
+}
+.menu {
+    height: 0px;
+    list-style: none;
+    padding-top: px;
+    margin: 0px;
+}
+
+.menu li {
+    float: left;
+    width: 180px;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    padding: 1px 1px;
+    border-right: 1px transparent black;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.menu li a:hover {background-color: gray;}
+.menu li a:active {background-color: black;}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: black;
+
+}
+
+.menu .sousmenu li a:hover {
+    background-color: gray;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(17, 16, 16, 0.4);
+    margin: 1px 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px
+}
+.boxContact {
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: 1vh;
+}
