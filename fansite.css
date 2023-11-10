@@ -332,3 +332,11 @@ margin: 2% auto;
     width: 4%;
     padding-bottom: 2%;
 }
+#TitlePerso {
+    font-size: 4vh;
+    color: whitesmoke;
+    word-spacing: 1vb;
+    font-family: "Playpen Sans";
+    text-align: center;
+    padding-bottom: 2vh;
+}
