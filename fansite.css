@@ -340,3 +340,29 @@ margin: 2% auto;
     text-align: center;
     padding-bottom: 2vh;
 }
+
+.ContainerPerso{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.ContainerPersoDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ContainerPersoDescription img {
+    width: 200px;
+    height: 200px;
+}
+.ContainerPersoDescription p {
+  padding: 1vh 29vh;
+   text-align: center;
+   color:white
+}
+.ContainerPersoDescription h1 {
+    font-size: 3vh;
+    color: whitesmoke;
+    word-spacing: 1vb;
+    font-family: "Playpen Sans";
+}
